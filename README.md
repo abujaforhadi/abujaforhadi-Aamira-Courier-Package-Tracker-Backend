@@ -1,8 +1,4 @@
-Okay, here's a comprehensive `README.md` file for your Aamira Courier Package Tracker Backend repository. This README covers setup, functionality, API documentation, and addresses the specific assumptions and trade-offs relevant to the coding challenge.
 
------
-
-````markdown
 # Aamira Courier Package Tracker - Backend
 
 url: https://aamira-courier-server.vercel.app/
@@ -11,27 +7,29 @@ This repository contains the backend API for the Aamira Courier Package Tracker.
 
 ## Table of Contents
 
-1.  [Business Context](#1-business-context)
-2.  [High-Level Goals](#2-high-level-goals)
-3.  [Technology Stack](#3-technology-stack)
-4.  [Features Implemented](#4-features-implemented)
-5.  [Getting Started](#5-getting-started)
-    * [Prerequisites](#prerequisites)
-    * [Installation](#installation)
-    * [Environment Variables](#environment-variables)
-    * [Running the Application](#running-the-application)
-6.  [API Endpoints](#6-api-endpoints)
-    * [Authentication](#authentication)
-    * [`POST /api/packages/events`](#post-apipackagesevents)
-    * [`GET /api/packages`](#get-apipackages)
-    * [`GET /api/packages/:id`](#get-apipackagesid)
-    * [`PUT /api/packages/:id/status`](#put-apipackagesidstatus)
-7.  [Real-time Updates (WebSockets)](#7-real-time-updates-websockets)
-8.  [Stuck Package Alerting](#8-stuck-package-alerting)
-9.  [Folder Structure](#9-folder-structure)
-10. [Assumptions & Trade-offs](#10-assumptions--trade-offs)
-11. [Known Limitations & Future Improvements](#11-known-limitations--future-improvements)
-12. [License](#12-license)
+- [Aamira Courier Package Tracker - Backend](#aamira-courier-package-tracker---backend)
+  - [Table of Contents](#table-of-contents)
+  - [1. Business Context](#1-business-context)
+  - [2. High-Level Goals](#2-high-level-goals)
+  - [3. Technology Stack](#3-technology-stack)
+  - [4. Features Implemented](#4-features-implemented)
+  - [5. Getting Started](#5-getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Environment Variables](#environment-variables)
+    - [Running the Application](#running-the-application)
+  - [6. API Endpoints](#6-api-endpoints)
+    - [Authentication](#authentication)
+    - [`POST /api/packages/events`](#post-apipackagesevents)
+    - [`GET /api/packages`](#get-apipackages)
+    - [`GET /api/packages/:id`](#get-apipackagesid)
+    - [`PUT /api/packages/:id/status`](#put-apipackagesidstatus)
+  - [7. Real-time Updates (WebSockets)](#7-real-time-updates-websockets)
+  - [8. Stuck Package Alerting](#8-stuck-package-alerting)
+  - [9. Folder Structure](#9-folder-structure)
+  - [10. Assumptions \& Trade-offs](#10-assumptions--trade-offs)
+  - [11. Known Limitations \& Future Improvements](#11-known-limitations--future-improvements)
+  - [12. License](#12-license)
 
 ---
 
